@@ -11,5 +11,3 @@ class DVD:
         return f"{self.title} ({self.year}) - {self.genre}"
     
 
-
-        
