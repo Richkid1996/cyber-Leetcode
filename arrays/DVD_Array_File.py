@@ -17,4 +17,25 @@ class DVDArray:
         
         #Place the DVD at the specified index
         self.storage[index] = dvd
+
+        #Increase the actual size count 
+        self.size += 1
+    
+    def get(self, index):
+        #Retrieve a DVD from a specific slot in the array
+
+        #Protects against out-of-bounds access
+        if index < 0 or index >= self.capacity:
+            raise IndexError("Index out of Bounds!")
+        
+        #Return the DVD object (or None)
+        return self.storage[index]
+    
+    def __str__(self):
+        #Return a human-readble version of the shelf
+        #Shows all slots: either a DVD or "Empty"
+        return "\n".join(
+            f"[{i}] {str(dvd) if dvd else 'Empty'}"
+            for i, dvd in enumerate(self.storage)
+        )
         
