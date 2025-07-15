@@ -21,4 +21,5 @@ shelf.insert(3, dvd4)
 print(shelf)
 
 #Get and print a specific DVD
-print 
+print ("\nGet index 1:")
+print(shelf.get(1))
