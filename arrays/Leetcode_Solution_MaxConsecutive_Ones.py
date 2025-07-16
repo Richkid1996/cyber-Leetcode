@@ -3,9 +3,8 @@
 #Explination: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
 
 nums = [1,1,0,1,1,1]
-def findMaxConsecutiveOnes(self, nums):
 #Use a variable like count to track current streak of 1s
- count = 0
+count = 0
 #Use another variable like max_count to store the longest streak so far
 max_count = 0
 
@@ -16,4 +15,4 @@ for num in nums:
     else:
         count = 0
     
-return max_count
+print(max_count)
