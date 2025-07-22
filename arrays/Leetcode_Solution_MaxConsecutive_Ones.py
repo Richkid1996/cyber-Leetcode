@@ -10,7 +10,7 @@ max_count = 0
 
 for num in nums:
     if num == 1:
-        count += 1
+        count += 1 #This counts the number of one's in the list 
         max_count = max(max_count, count)
     else:
         count = 0
