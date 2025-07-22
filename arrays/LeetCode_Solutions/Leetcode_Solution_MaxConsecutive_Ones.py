@@ -16,3 +16,11 @@ for num in nums:
         count = 0
     
 print(max_count)
+
+
+
+# Find Numbers with Even Number of Digits
+#Given an array nums of integers, return how many of them contain on even number of digits
+#Explination: There are Five numbers listed in the array the objective is to find and count how many are even numbers
+
+nums = []
