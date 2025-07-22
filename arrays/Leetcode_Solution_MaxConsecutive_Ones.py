@@ -11,7 +11,7 @@ max_count = 0
 for num in nums:
     if num == 1:
         count += 1 #This counts the number of one's in the list 
-        max_count = max(max_count, count)
+        max_count = max(max_count, count) #This updates the max count only if count is larger using the built in max function 
     else:
         count = 0
     
