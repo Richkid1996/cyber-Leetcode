@@ -23,4 +23,13 @@ print(max_count)
 #Given an array nums of integers, return how many of them contain on even number of digits
 #Explination: There are Five numbers listed in the array the objective is to find and count how many are even numbers
 
-nums = []
+nums = [555, 901, 482, 1771]
+
+#use a variable like count to track the number of even numbers in the array 
+count = 0
+
+for num in nums:
+    if len(str(nums)) % 2 == 0:
+        count += 1
+
+print(count)
