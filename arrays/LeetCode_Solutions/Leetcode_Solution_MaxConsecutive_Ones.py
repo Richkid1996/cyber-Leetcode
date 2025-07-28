@@ -37,3 +37,12 @@ print(count)
 
 #Return an array of the squares of each number sorted in non-decreasing order 
 #Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+nums = [-4,-1,0,3,10]
+
+#Initializes an empty list 
+squared = [] # This list is were we will store the square of each number in nums 
+
+for num in nums: #This is the for loop we will use to hold our solution
+    squared.append(num ** 2)#This squares each number in nums and stores it in the suared variable
+squared.sort()#This is were were sort the stored numbers in non-desending order 
+print(squared) # this is were we call the squared list to be shown 
