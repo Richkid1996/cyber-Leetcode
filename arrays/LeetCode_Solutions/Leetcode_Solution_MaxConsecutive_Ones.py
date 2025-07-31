@@ -46,3 +46,6 @@ for num in nums: #This is the for loop we will use to hold our solution
     squared.append(num ** 2)#This squares each number in nums and stores it in the suared variable
 squared.sort()#This is were were sort the stored numbers in non-desending order 
 print(squared) # this is were we call the squared list to be shown 
+
+
+#Given a fixed-length integer array arr, duplicate each of zero, shifting the remaining elements to the right.
